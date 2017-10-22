@@ -1,0 +1,12 @@
+/_sent/*
+/external/*
+/resources/*
+*.user
+/_analysis/*
+/.vs/*
+/Tengine.VC.db
+/Tengine.VC.VC.opendb
+/source/cuda_femdemo/solver_jacobi_kernel.ptx
+/source/cuda_femdemo/solver_kernel.ptx
+_interm/*
+_out/*
