@@ -8,6 +8,11 @@ Classic articulated rigid bodies simulation is fueled by Projected Gauss Seidel 
 
 [Paper](materials/fem_paper.pdf), describing the full approach (both coupling and MLCP solver) is included, along with high-level [presentation](materials/fem_presentation.pdf). Please note that **neither was peer-reviewed**, so any constructive feedback is appreciated.
 
+<img src="materials/paper_page24.png" width="350" alt="FEM-RBD paper page" />
+<img src="materials/paper_page37.png" width="350" alt="FEM-RBD paper page" />
+
+<img src="materials/presentation_page.png" width="350" alt="FEM-RBD presentation page" />
+
 ## Demo
 Solution contains several projects, main demo project for the coupled simulation is called `cuda_femdemo` (despite the name, this release doesn't contain CUDA code), scene selection is via `TEST_PRESET` preprocessor switch. Solver selection is via `SOFTWARE_SOLVER` preprocessor switch (please note, that `HARDWARE_SOLVER` must be set to `HW_SOLVER_NONE` in this release). `gjkdemo` project visualizes GJK distance algorithm, although it is not directly related to the project, as it is incomplete and not integrated into the main simulation flow.
 
